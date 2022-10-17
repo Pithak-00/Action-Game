@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: tiled_bg_6
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 291257651, guid: da734d1c8225eee4abedbee8e6b9031d, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.30116177, a: 1}
+  m_Color: {r: 0, g: 0.688, b: 0.20939127, a: 1}
   m_Transform:
     e00: 1
     e01: 0
