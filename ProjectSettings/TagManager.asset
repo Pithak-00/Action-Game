@@ -47,3 +47,9 @@ TagManager:
   - name: Platforms
     uniqueID: 3926282825
     locked: 0
+  - name: Water
+    uniqueID: 1466808267
+    locked: 0
+  - name: Water Top
+    uniqueID: 1273378427
+    locked: 0
