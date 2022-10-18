@@ -5499,7 +5499,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5523,7 +5523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.047699, y: 2.626542, z: -10}
+  m_LocalPosition: {x: -24.828867, y: 2.6243591, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5564,6 +5564,11 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &641305762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2369327599802712072, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
+  m_PrefabInstance: {fileID: 5163453557663949777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &738693556
 GameObject:
   m_ObjectHideFlags: 3
@@ -17468,21 +17473,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
-      propertyPath: runSpeed
-      value: 7
-      objectReference: {fileID: 0}
+      propertyPath: bow
+      value: 
+      objectReference: {fileID: 641305762}
     - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
-      propertyPath: jumpSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
-      propertyPath: deathKick.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
-      propertyPath: deathKick.y
-      value: 20
-      objectReference: {fileID: 0}
+      propertyPath: arrow
+      value: 
+      objectReference: {fileID: 4220049451976260089, guid: da3e5524505744ad287c60b8edd18ff2, type: 3}
     - target: {fileID: 5163453558311510779, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
       propertyPath: m_Name
       value: Player
