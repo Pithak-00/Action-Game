@@ -17300,6 +17300,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
+      propertyPath: runSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
+      propertyPath: jumpSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937384656195911360, guid: 436e0a0b5fa7a4b56a5b7a3dcad68a44, type: 3}
       propertyPath: deathKick.x
       value: 20
       objectReference: {fileID: 0}
