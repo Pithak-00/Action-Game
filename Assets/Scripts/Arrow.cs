@@ -6,14 +6,13 @@ public class Arrow : MonoBehaviour
 {
     [SerializeField] float arrowSpeed = 20f;
     Rigidbody2D myRigidBody;
-    [SerializeField] GameObject player;
     PlayerMovement playerMovement;
     float xSpeed;
 
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
-        playerMovement = player.GetComponent<PlayerMovement>();
+        playerMovement = FindObjectOfType<PlayerMovement>();
         xSpeed = playerMovement.transform.localScale.x * arrowSpeed;
     }
 
