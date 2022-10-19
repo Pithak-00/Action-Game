@@ -194,6 +194,8 @@ MonoBehaviour:
   jumpSpeed: 20
   climbSpeed: 5
   deathKick: {x: 20, y: 20}
+  arrow: {fileID: 4220049451976260089, guid: da3e5524505744ad287c60b8edd18ff2, type: 3}
+  bow: {fileID: 2369327599802712072}
 --- !u!61 &8253111595533926867
 BoxCollider2D:
   m_ObjectHideFlags: 0
