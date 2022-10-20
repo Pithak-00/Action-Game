@@ -21,6 +21,13 @@ public class PlayerMovement : MonoBehaviour
 
     bool isAlive = true;
 
+    AudioPlayer audioPlayer;
+
+    void Awake()
+    {
+        audioPlayer = FindObjectOfType<AudioPlayer>();
+    }
+
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -45,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         if (value.isPressed)
         {
             Instantiate(arrow, bow.position, transform.rotation);
+            audioPlayer.PlayShootingClip();
         }
     }
 
