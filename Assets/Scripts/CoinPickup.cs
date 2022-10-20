@@ -19,7 +19,8 @@ public class CoinPickup : MonoBehaviour
         if(other.tag == "Player" && !wasCollected)
         {
             wasCollected = true;
-            FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup);
+            FindObjectOfType<GameManager>().AddToScore(pointsForCoinPickup);
+            //FindObjectOfType<GameSession>().RefreshScoreUI();
             audioPlayer.PlayGetCoinClip();
             gameObject.SetActive(false);
             Destroy(gameObject);
