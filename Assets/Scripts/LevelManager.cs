@@ -18,14 +18,22 @@ public class LevelManager : MonoBehaviour
         gameManager.ResetScore();
         SceneManager.LoadScene("Level 1");
     }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
+
     public void LoadGameOver()
     {
         StartCoroutine(WaitAndLoad("GameOver",sceneLoadDelay));
     }
+
+    public void LoadGameEnd()
+    {
+        StartCoroutine(WaitAndLoad("GameEnd", sceneLoadDelay));
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting Game...");

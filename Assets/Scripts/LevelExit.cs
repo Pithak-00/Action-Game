@@ -20,13 +20,17 @@ public class LevelExit : MonoBehaviour
         yield return new WaitForSecondsRealtime(levelLoadDelay);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
+        Scene scene = SceneManager.GetActiveScene();
 
-        if(nextSceneIndex == SceneManager.sceneCountInBuildSettings)
+        if (scene.name == "Level 3")
         {
-            nextSceneIndex = 0;
+            //nextSceneIndex = 0;
+            FindObjectOfType<GameSession>().EndGameSession();
         }
-
-        FindObjectOfType<ScenePersist>().ResetScenePersist();
-        SceneManager.LoadScene(nextSceneIndex);
+        else
+        {
+            FindObjectOfType<ScenePersist>().ResetScenePersist();
+            SceneManager.LoadScene(nextSceneIndex);
+        }
     }
 }

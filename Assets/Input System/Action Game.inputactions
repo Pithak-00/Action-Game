@@ -265,6 +265,28 @@
                 },
                 {
                     "name": "",
+                    "id": "7aa2b1b3-b68f-48b1-b058-d9c02357a898",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9905ef27-4c78-441a-a47c-580ef071e021",
+                    "path": "<Keyboard>/slash",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e5f513fb-b096-4446-8389-01037559397e",
                     "path": "<Keyboard>/space",
                     "interactions": "",
