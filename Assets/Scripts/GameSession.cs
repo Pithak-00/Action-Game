@@ -48,7 +48,13 @@ public class GameSession : MonoBehaviour
 
     public void ProcessPlayerDeath()
     {
-        if(playerLives > 1)
+        StartCoroutine(WaitAndProcess(1.0f));
+    }
+
+    IEnumerator WaitAndProcess(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        if (playerLives > 1)
         {
             TakeLife();
         }
